@@ -1,0 +1,212 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="light">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content ><hr>
+
+<ion-label class ="dfgh">
+    Wallpaper of the day
+  </ion-label>
+    <ion-slides  [options]="slideOpts"  pager="true">
+      <ion-slide>
+
+        <ion-card style="height: 180px">
+
+          <ion-img src="assets/Super Nova.png"></ion-img>
+
+
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card style="height: 180px">
+          <ion-img src="assets/Waves 16.png "></ion-img>
+
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card style="height: 180px">
+          <ion-img src="assets/Android 14.png "></ion-img>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+
+      <ion-row >
+        <ion-col>
+
+            <ion-img id="wallp1" src="assets/Super Nova.png"></ion-img>
+            <!-- <ion-item>Wallp1
+              <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+            </ion-item> -->
+            <ion-modal  trigger="wallp1">
+              <ng-template>
+                <ion-content fullscreen>
+                  <div slot="fixed">
+
+                    <ion-icon class="backbtn" (click)="closeModal()" size="large" name="return-up-back-outline"></ion-icon>
+
+                  </div>
+                      <ion-img src="assets/Super Nova.png"></ion-img>
+                    <ion-item>
+
+                      <h2>Wallp1</h2>
+                        <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+
+                    </ion-item>
+                    <ion-row>
+                      <ion-col>
+
+                          <ion-button>Download
+                            <ion-icon slot="end" name="download-outline"></ion-icon>
+                          </ion-button>
+
+
+                      </ion-col>
+                      <ion-col>
+                        <!-- <ion-buttons> -->
+                        <ion-button>Set Wall
+                          <ion-icon slot="end" name="images-outline"></ion-icon>
+                        </ion-button>
+                      <!-- </ion-buttons> -->
+                      </ion-col>
+                    </ion-row>
+                    <ion-item>
+                      <h3>Details</h3>
+                    </ion-item>
+                      <ion-item>
+                        <ion-label>Downloads</ion-label>
+                        <ion-badge color="light" slot="end">2200</ion-badge>
+                      </ion-item>
+                      <ion-item>
+                        <ion-label>Likes</ion-label>
+                        <ion-badge color="light" slot="end">118k</ion-badge>
+                      </ion-item>
+                      <ion-item>
+                        <ion-label>Size</ion-label>
+                        <ion-badge color="light" slot="end">2.89mb</ion-badge>
+                      </ion-item>
+                      <ion-item>
+                        <ion-label>
+                          <h2>Location</h2>
+                          <p>C:\ionic\ionicapp\src\assets</p>
+                        </ion-label>
+                      </ion-item>
+                </ion-content>
+              </ng-template>
+            </ion-modal>
+        </ion-col>
+
+        <ion-col>
+
+            <ion-img id="wallp2" src="assets/Super Nova 03.png"></ion-img>
+            <!-- <ion-item>Wallp1
+              <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+            </ion-item> -->
+            <!-- <ion-modal  trigger="wallp2">
+              <ng-template>
+                <ion-content fullscreen>
+                  <div slot="fixed">
+
+                    <ion-icon class="backbtn" (click)="closeModal()" size="large" name="return-up-back-outline"></ion-icon>
+
+                  </div>
+                      <ion-img src="assets/Super Nova 03.png"></ion-img>
+                    <ion-item>
+
+                      <h2>Super Nova 03</h2>
+                        <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+
+                    </ion-item>
+                    <ion-item>
+
+
+                      <ion-buttons>
+                        <ion-button>Download
+                          <ion-icon slot="end" name="download-outline"></ion-icon>
+                        </ion-button>
+
+                        <ion-button>Set As
+                          <ion-icon slot="end" name="images-outline"></ion-icon>
+                        </ion-button>
+                      </ion-buttons>
+
+
+                    </ion-item>
+                    <ion-item>
+                      <h3>Details</h3>
+                    </ion-item>
+                      <ion-item>
+                        <ion-label>Downloads</ion-label>
+                        <ion-badge color="light" slot="end">2820</ion-badge>
+                      </ion-item>
+                      <ion-item>
+                        <ion-label>Likes</ion-label>
+                        <ion-badge color="light" slot="end">121k</ion-badge>
+                      </ion-item>
+                      <ion-item>
+                        <ion-label>Size</ion-label>
+                        <ion-badge color="light" slot="end">3.80mb</ion-badge>
+                      </ion-item>
+                      <ion-item>
+                        <ion-label>
+                          <h2>Location</h2>
+                          <p>C:\ionic\ionicapp\src\assets</p>
+                        </ion-label>
+                      </ion-item>
+                </ion-content>
+              </ng-template>
+            </ion-modal> -->
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+
+            <ion-img src="assets/Waves 14.png "></ion-img>
+            <!-- <ion-item>Wallp1
+              <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+            </ion-item> -->
+
+        </ion-col>
+        <ion-col>
+
+            <ion-img src="assets/Waves 15.png "></ion-img>
+            <!-- <ion-item>Wallp1
+              <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+            </ion-item> -->
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+
+            <ion-img src="assets/Waves 16.png "></ion-img>
+            <!-- <ion-item>Wallp1
+              <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+            </ion-item> -->
+        </ion-col>
+        <ion-col>
+
+            <ion-img src="assets/Waves 17.png "></ion-img>
+            <!-- <ion-item>Wallp1
+              <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+            </ion-item> -->
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+
+            <ion-img src="assets/Android 12.png"></ion-img>
+            <!-- <ion-item>Wallp1
+              <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+            </ion-item> -->
+        </ion-col>
+        <ion-col>
+
+            <ion-img src="assets/Android 14.png "></ion-img>
+            <!-- <ion-item>Wallp1
+              <ion-icon slot="end" name="bookmark-outline"></ion-icon>
+            </ion-item> -->
+        </ion-col>
+      </ion-row>
+</ion-content>
